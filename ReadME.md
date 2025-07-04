@@ -14,10 +14,12 @@ java --version
 
 
 ## 🚀 How to Run
-git clone git@github.com:abdulrhman500/console-e-commerce-.git
+```
+git clone https://github.com/abdulrhman500/console-e-commerce-.git
 cd console-e-commerce-
 
 javac *.java
 
 java Main
 
+```
