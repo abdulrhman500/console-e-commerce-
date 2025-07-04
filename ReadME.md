@@ -8,6 +8,8 @@ A simple Java-based console application simulating an e-commerce system.
 
 ```bash
 java --version
+```
+
 # openjdk 21.0.7 2025-04-15
 
 
