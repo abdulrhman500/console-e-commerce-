@@ -45,4 +45,12 @@ public class Cart {
     public void clear() {
         this.items.clear();
     }
+
+    public List<CartItem> getItems() {
+        return new ArrayList<>(items);
+    }
+
+    public boolean isEmpty() {
+        return items.isEmpty();
+    }
 }

@@ -1,4 +1,4 @@
 package product;
-public interface Trait {
+public interface ITrait{
     void validate();
 }

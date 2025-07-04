@@ -7,14 +7,15 @@ public class Product {
     String name;
     int availableQuantity;
 
-    HashMap<String, Trait> traits = new HashMap<>();
+    HashMap<String, ITrait> traits = new HashMap<>();
 
-    public Product(float price, String name, int availableQuantity, List<Trait> traits) {
+    public Product(float price, String name, int availableQuantity, List<ITrait> traits) {
 
         this.price = price;
         this.name = name;
         this.availableQuantity = availableQuantity;
-        for (Trait trait : traits) {
+        for (
+            ITrait trait: traits) {
             if (trait != null)
                 this.traits.put(trait.getClass().getSimpleName(), trait);
         }
@@ -115,6 +116,10 @@ public class Product {
         if (!(quantity >= 0)) {
             throw new IllegalArgumentException("available quantity cannot be negative");
         }
+    }
+
+    public Map<String, ITrait> getTraits() {
+        return traits;
     }
 
 }

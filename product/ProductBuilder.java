@@ -4,7 +4,7 @@
     import java.util.ArrayList;
 
     public class ProductBuilder {
-        private ArrayList<Trait> traits;
+        private ArrayList<ITrait> traits;
 
         public ProductBuilder(){
             this.traits = new ArrayList<>();

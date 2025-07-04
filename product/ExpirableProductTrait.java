@@ -1,7 +1,7 @@
 package product;
 import java.time.LocalDate;
 
-public class ExpirableProductTrait implements Trait {
+public class ExpirableProductTrait implements ITrait{
 
     private final LocalDate expiryDate;
 

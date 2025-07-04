@@ -1,5 +1,5 @@
 package product;
-public class ShippableProductTrait implements Trait {
+public class ShippableProductTrait implements ITrait{
     private double weight;
 
     public ShippableProductTrait(double weight) {
